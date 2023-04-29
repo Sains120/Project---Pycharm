@@ -2,6 +2,7 @@
 player can put uppercase, lowercase, or y/n
 """
 
+# ask the player if they have played before
 print("***Maori Number Quiz***")
 answer = (input("\nHave you played before? "))
 
