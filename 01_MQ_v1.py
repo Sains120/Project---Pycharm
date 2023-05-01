@@ -4,7 +4,7 @@ if not instructions will show
 """
 
 # ask the player if they have played before
-print("***Maori Number Quiz***")
+print("***Māori Number Quiz***")
 answer = (input("\nHave you played before? "))
 
 if answer == "yes":
