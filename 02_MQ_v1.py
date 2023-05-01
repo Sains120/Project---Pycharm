@@ -22,54 +22,35 @@ questions = [
 
 question = random.choice(questions)
 
-answer = (input(question))
+print(input(question))
 
-if answer for 1. == "tahi":
+
+if 1. in questions == "tahi":
     print("That's correct! Good job!")
+elif 2. in questions == "rua":
+    print("That's correct! Good job!")
+elif 3. in questions == "toru":
+    print("That's correct! Good job!")
+elif 4. in questions == "whā"
+    print("That's correct! Good job!")
+elif 5. in questions == "rima":
+    print("That's correct! Good job!")
+elif 6. in questions == "ono":
+    print("That's correct! Good job!")
+elif 7. in questions == "whitu":
+    print("That's correct! Good job!")
+elif 8. in questions == "waru":
+    print("That's correct! Good job!")
+elif 9. in questions == "iwa":
+    print("That's correct! Good job!")
+elif
 else:
     print("That's incorrect. Nice try.")
 
-if 2. == "rua":
-    print("That's correct! Good job!")
-else:
-    print("That's incorrect. Nice try.")
 
-if 3. == "toru":
-    print("That's correct! Good job!")
-else:
-    print("That's incorrect. Nice try.")
 
-if 4. == "whā":
-    print("That's correct! Good job!")
-else:
-    print("That's incorrect. Nice try.")
 
-if 5. == "rima":
-    print("That's correct! Good job!")
-else:
-    print("That's incorrect. Nice try.")
-
-if 6. == "ono":
-    print("That's correct! Good job!")
-else:
-    print("That's incorrect. Nice try.")
-
-if 7. == "whitu":
-    print("That's correct! Good job!")
-else:
-    print("That's incorrect. Nice try.")
-
-if 8. == "waru":
-    print("That's correct! Good job!")
-else:
-    print("That's incorrect. Nice try.")
-
-if 9. == "iwa":
-    print("That's correct! Good job!")
-else:
-    print("That's incorrect. Nice try.")
-
-if 10. == "tekau":
+if 10. in questions == "tekau":
     print("That's correct! Good job!")
 else:
     print("That's incorrect. Nice try.")
