@@ -31,7 +31,7 @@ elif 2. in questions == "rua":
     print("That's correct! Good job!")
 elif 3. in questions == "toru":
     print("That's correct! Good job!")
-elif 4. in questions == "whā"
+elif 4. in questions == "whā":
     print("That's correct! Good job!")
 elif 5. in questions == "rima":
     print("That's correct! Good job!")
@@ -43,14 +43,7 @@ elif 8. in questions == "waru":
     print("That's correct! Good job!")
 elif 9. in questions == "iwa":
     print("That's correct! Good job!")
-elif
-else:
-    print("That's incorrect. Nice try.")
-
-
-
-
-if 10. in questions == "tekau":
+elif 10. in questions == "tekau":
     print("That's correct! Good job!")
 else:
     print("That's incorrect. Nice try.")
