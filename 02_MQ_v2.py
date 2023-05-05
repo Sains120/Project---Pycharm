@@ -1,6 +1,6 @@
-"""Component two - Generate Question - v1
-Generate the questions and
-say if wrong or right
+"""Component two - Generate Question - v2
+Generate the questions and say if wrong or right
+Uppercase and lowercase work
 """
 
 # list of questions
@@ -17,7 +17,7 @@ question_ten = "What is number ten in Māori? "
 
 # questions answers
 answer_one = (input(question_one))
-if answer_one != "tahi":
+if answer_one != "tahi" or "Tahi":
     print("That's incorrect. Nice try. Answer was tahi. \n")
 else:
     print("That correct! Good job! \n")
