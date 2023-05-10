@@ -6,10 +6,11 @@ player can put uppercase, lowercase, or y/n
 print("***Māori Number Quiz***")
 answer = (input("\nHave you played before? "))
 
-if answer == "yes" or "Yes" or "y" or "Y":
+if answer == "yes" or answer == "Yes" \
+        or answer == "y" or answer == "Y":
     print("Game begins...")
-
-if answer == "no" or "No" or "n" "N":
+elif answer == "no" or answer == "No" \
+        or answer == "n" or answer == "N":
     print("instructions")
 else:
     print(input("Please enter yes or no: "))
