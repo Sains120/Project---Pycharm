@@ -1,4 +1,4 @@
-""" MQ base - v1
+""" MQ base - v2
 """
 
 # ask the player if they have played before
@@ -10,7 +10,12 @@ if answer == "yes" or answer == "Yes" \
     print(" ")
 elif answer == "no" or answer == "No" \
         or answer == "n" or answer == "N":
-    print("instructions")
+    print("*****Instructions***** \n"
+          "Questions will come up on the screen about what number up to ten you think it is in Māori.\n"
+          "You can answer them. If you are not sure, have a guess. \n"
+          "On the screen it will pop up and tell you if you are right of wrong. \n"
+          "After the ten questions, you will get your total score out of ten.\n"
+          "*****Good luck!*****\n")
 else:
     print(input("Please enter yes or no: "))
 
