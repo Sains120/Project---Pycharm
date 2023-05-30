@@ -1,9 +1,24 @@
 """ MQ base final version
 """
 
+def get_name():
+    name_ = input("What's your name?: ")
+    return name_
+
+def get_age():
+    age_ = int(input("What's your age?: "))
+    return age_
+
+
+name = get_name()
+age = get_age()
+
+
 # ask the player if they have played before
 print("***Māori Number Quiz***")
-answer = (input("\nHave you played before? "))
+answer = (input(f"\n{name} Have you played before? "))
+
+
 
 if answer == "yes" or answer == "Yes" \
         or answer == "y" or answer == "Y":
